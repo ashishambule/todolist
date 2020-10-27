@@ -36,16 +36,6 @@ function Displaytodo() {
     setTodos(newTodos);
   };
 
-  function updateTodoAtIndex(e, i) {
-    const newTodos = [...todos];
-
-    console.log('====================================');
-    console.log(newTodos, e.target);
-    console.log('====================================');
-    newTodos[i].text = e.target.value;
-    setTodos(newTodos);
-  }
-
   return (
     <div className='display'>
       To Do App
