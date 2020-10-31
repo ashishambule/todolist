@@ -13,5 +13,4 @@ function Todo({ todo, index, completeTodo, removeTodo }) {
     </div>
   );
 }
-
 export default Todo;
